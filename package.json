@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^10.13.0",
+    "sass": "^1.77.8"
+  }
+}

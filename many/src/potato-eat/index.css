@@ -1,0 +1,23 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee7e0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+svg {
+  display: none;
+}
