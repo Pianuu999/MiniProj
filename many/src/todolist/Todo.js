@@ -131,7 +131,7 @@ function todo() {
             <>
               <img
                 className={styles.wicon}
-                src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
+                src={`/${weather.weather[0].icon}.png`}
                 alt="weather-icon"
               />
               <p>{Math.round(weather.main.temp)}°C</p>
