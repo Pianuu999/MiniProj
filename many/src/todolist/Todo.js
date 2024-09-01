@@ -21,7 +21,7 @@ function todo() {
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${CITY}&appid=${API_KEY}&units=metric`);
+        const response = await fetch();
         const data = await response.json();
         if (data.main && data.weather) {
           setWeather(data);
