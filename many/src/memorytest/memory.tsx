@@ -3,7 +3,7 @@ import styles from "./App.module.scss";
 import "./App.module.scss";
 import gsap from "gsap";
 
-function memory() {
+function Memory() {
   // 최초 시작
   const [start, setStart] = useState<boolean>(false);
   // 카드 엘리먼트 배열
@@ -464,4 +464,4 @@ function memory() {
   );
 }
 
-export default memory;
+export default Memory;

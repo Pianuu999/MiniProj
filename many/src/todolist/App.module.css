@@ -1,0 +1,201 @@
+/* App 컴포넌트 스타일 */
+.Appwrapper {
+  background: radial-gradient(circle, rgba(63, 231, 251, 1) 0%, rgba(252, 174, 70, 1) 90%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* 부모 컨테이너의 너비를 100%로 설정 */
+  max-width: 1200px; /* 최대 너비를 1200px로 설정하여 더 넓게 만듦 */
+  margin: 30px auto;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.2); /* 배경색을 약간 더 불투명하게 설정 */
+}
+
+/* 로고 스타일 */
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* 입력창과 버튼 스타일 */
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 100%; /* 너비를 100%로 설정 */
+  box-sizing: border-box;
+}
+
+/* 입력창 스타일 */
+input {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 80%; /* 너비를 100%로 설정 */
+  max-width: 700px; /* 최대 너비를 설정하여 너무 넓지 않도록 조절 */
+  box-sizing: border-box;
+  color: #000a02;
+  flex-grow: 1; /* 버튼과 같은 줄에 있도록 설정 */
+}
+
+/* 버튼 스타일 */
+button {
+  height: 38px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  align-items: center;
+  gap: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* 리스트 스타일 */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* 너비를 100%로 설정 */
+  box-sizing: border-box;
+}
+
+/* 리스트 항목 스타일 */
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* 너비를 100%로 설정 */
+  max-width: 900px; /* 최대 너비를 설정하여 충분한 넓이 확보 */
+  margin: 10px auto;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+li.active {
+  background-color: #e0f7fa;
+}
+
+/* 타이머 및 버튼 컨테이너 스타일 */
+.timer {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #00796b;
+  min-width: 50px;
+  text-align: right;
+}
+
+.button-container {
+  display: flex;
+  gap: 8px;
+}
+
+/* 각 버튼 스타일 */
+li button.editbutton {
+  background-color: #52cea3;
+  color: white;
+  font-size: 12px;
+}
+
+li button.editbutton:hover {
+  background-color: #2b58a5;
+}
+
+li button.deletebutton {
+  background-color: #b95252;
+  color: white;
+  font-size: 12px;
+}
+
+li button.deletebutton:hover {
+  background-color: #c82333;
+}
+
+li button.completebutton {
+  background-color: #007bff;
+  font-size: 12px;
+}
+
+li button.completebutton:hover {
+  background-color: #0056b3;
+}
+
+/* 시간 및 날씨 컨테이너 스타일 */
+.time-container {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.time-container p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.time-weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.winfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.wicon {
+  width: 50px;
+  height: 50px;
+}
+
+.chartContainer {
+  margin-top: 50px;
+}

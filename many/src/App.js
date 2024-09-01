@@ -9,6 +9,8 @@ import Memory from './memorytest/memory.tsx';
 import Game from './potato-eat/game.js';
 import Market from './market/Market';
 import Cart from './market/Cart';
+import Chatapp from './chat/chat_app';
+import Todoo from './todolist/Todo';
 import firebase from './firebase';
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
       {location.pathname === '/potato-eat' && <Navbar />}
       {location.pathname === '/Market' && <Navbar />}
       {location.pathname === '/Cart' && <Navbar />}
+      {location.pathname === '/chat' && <Navbar />}
         <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
@@ -31,6 +34,8 @@ function App() {
         <Route path="/potato-eat" element={<Game />} />
         <Route path="/Market" element={<Market />} />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/chat" element={<Chatapp />} />
+        <Route path="/Todo" element={<Todoo />} />
         </Routes>
       </div>
   );

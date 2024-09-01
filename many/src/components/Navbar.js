@@ -158,7 +158,7 @@ function Navbar() {
                     }}
                     onClick={() => handleButtonClick('Market')}
                 >
-                     <Link to="/Market" style={{ textDecoration: 'none' }}>
+                    <Link to="/Market" style={{ textDecoration: 'none' }}>
                         <p
                             style={{
                                 flexGrow: 0,
@@ -184,24 +184,21 @@ function Navbar() {
                         position: "relative",
                         gap: 10,
                         padding: 10,
-                        borderTopLeftRadius: 25,
-                        borderTopRightRadius: 25,
-                        background: activeButton === 'Cart' ? "#fafafa" : "transparent",
-                        cursor: "pointer",
                     }}
-                    onClick={() => handleButtonClick('Cart')}
+                    onClick={() => handleButtonClick('chat')}
                 >
-                    <Link to="/Cart" style={{ textDecoration: 'none' }}>
-                    <p
-                        style={{ 
-                            flexGrow: 0, 
-                            flexShrink: 0, 
-                            fontSize: 24, 
-                            textAlign: "center", 
-                            color: activeButton === 'Market' ? "#252525" : "#fafafa", }}
-                    >
-                        Cart
-                    </p>
+                    <Link to="/chat" style={{ textDecoration: 'none' }}>
+                        <p
+                            style={{
+                                flexGrow: 0,
+                                flexShrink: 0,
+                                fontSize: 24,
+                                textAlign: "center",
+                                color: activeButton === 'chat' ? "#252525" : "#fafafa",
+                            }}
+                        >
+                            chat
+                        </p>
                     </Link>
                 </div>
                 <div
@@ -217,32 +214,21 @@ function Navbar() {
                         gap: 10,
                         padding: 10,
                     }}
+                    onClick={() => handleButtonClick('Todo')}
                 >
-                    <p
-                        style={{ flexGrow: 0, flexShrink: 0, fontSize: 24, textAlign: "center", color: "#fafafa" }}
-                    >
-                        Contact
-                    </p>
-                </div>
-                <div
-                    style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        flexGrow: 0,
-                        flexShrink: 0,
-                        width: 130,
-                        height: 97,
-                        position: "relative",
-                        gap: 10,
-                        padding: 10,
-                    }}
-                >
-                    <p
-                        style={{ flexGrow: 0, flexShrink: 0, fontSize: 24, textAlign: "center", color: "#fafafa" }}
-                    >
-                        Contact
-                    </p>
+                    <Link to="/Todo" style={{ textDecoration: 'none' }}>
+                        <p
+                            style={{
+                                flexGrow: 0,
+                                flexShrink: 0,
+                                fontSize: 24,
+                                textAlign: "center",
+                                color: activeButton === 'Todo' ? "#252525" : "#fafafa",
+                            }}
+                        >
+                            todolist
+                        </p>
+                    </Link>
                 </div>
             </div>
             <svg

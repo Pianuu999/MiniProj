@@ -142,8 +142,7 @@ function List() {
                         />
                     </svg>
                     <p style={{ flexGrow: 1, width: 632, fontSize: 14, textAlign: "left", color: "#f2f2f2" }}>
-                        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames
-                        integer.
+                    [학과: 컴퓨터공학전공 / 이름: 김명종/ 페이지 구현: 로그인 페이지,회원가입 페이지,비밀번호 찾기 페이지,상단바 제작]
                     </p>
                     <div
                         style={{
@@ -190,8 +189,7 @@ function List() {
                         />
                     </svg>
                     <p style={{ flexGrow: 1, width: 632, fontSize: 14, textAlign: "left", color: "#f2f2f2" }}>
-                        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames
-                        integer.
+                    [학과: 소프트웨어 융합학과 / 이름: 이효림/ 페이지 이름: JUST DO IT]
                     </p>
                     <div
                         style={{
@@ -238,8 +236,7 @@ function List() {
                         />
                     </svg>
                     <p style={{ flexGrow: 1, width: 632, fontSize: 14, textAlign: "left", color: "#f2f2f2" }}>
-                        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames
-                        integer.
+                    [학과: 컴퓨터 공학과 / 이름: 구건우/ 페이지 이름: Memory test game, Potato eat game]
                     </p>
                     <div
                         style={{
@@ -286,8 +283,7 @@ function List() {
                         />
                     </svg>
                     <p style={{ flexGrow: 1, width: 632, fontSize: 14, textAlign: "left", color: "#f2f2f2" }}>
-                        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames
-                        integer.
+                    [학과: 소프트웨어 융합학과 / 이름: 이수림/ 페이지 이름: 셀럽들의 채팅 앱]
                     </p>
                     <div style={{ flexGrow: 0, flexShrink: 0, width: 24, height: 24, position: "relative" }} />
                 </div>
@@ -324,8 +320,7 @@ function List() {
                         />
                     </svg>
                     <p style={{ flexGrow: 1, width: 632, fontSize: 14, textAlign: "left", color: "#f2f2f2" }}>
-                        Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames
-                        integer.
+                    [학과: 컴퓨터공학전공 / 이름: 안병도/ 페이지 이름: 마켓페이지 구현]
                     </p>
                     <div
                         style={{
@@ -352,7 +347,9 @@ function List() {
                     padding: 16,
                     borderRadius: 8,
                     background: "#1e6f9f",
+                    cursor: 'pointer',
                 }}
+                onClick={handleLogout}
             >
                 <p
                     style={{
@@ -362,7 +359,9 @@ function List() {
                         fontWeight: 700,
                         textAlign: "left",
                         color: "#f2f2f2",
+                        cursor: 'pointer',
                     }}
+                    onClick={handleLogout}
                 >
                     LOGOUT
                 </p>
