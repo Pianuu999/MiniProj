@@ -10,12 +10,16 @@
 
 로그인 페이지를 만들어 회원가입도 가능하게 하였습니다. 회원가입을 통해 아이디를 만들면 로그인 할 수 있습니다. 회원가입 과정에서 얻을 수 있는 정보는 악용하지 않을 것이며 실제 이메일 아이디가 아니더라도 회원가입을 할 수 있습니다. 
 
-​
+​<p align="center">
+<img width="2000" alt="홈페이지" src="https://github.com/user-attachments/assets/05d017fa-7dbc-4a0d-b6e8-205e6baf2138">
+</p>
 
 
 로그인에 성공하게 되면 메인페이지로 들어갈 수 있게 됩니다. 메인페이지에서는 저희의 간단한 소개와 미니프로젝트에서 만든 파트를 표기해두었습니다.
 
-​
+​​<p align="center">
+<img width="2000" alt="홈페이지" src="https://github.com/user-attachments/assets/05d017fa-7dbc-4a0d-b6e8-205e6baf2138">
+</p>
 
 
 첫 번째 상단바 메뉴인 Memory test 입니다. 간단한 미니게임으로 기억력 테스트를 할 수 있습니다.
