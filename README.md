@@ -4,7 +4,7 @@
 초기 화면
 
 <p align="center">
-<img width="200" alt="로그인" src="https://github.com/user-attachments/assets/3f511297-c7f6-4269-a3ee-790e7cda4901">
+<img width="2000" alt="로그인" src="https://github.com/user-attachments/assets/3f511297-c7f6-4269-a3ee-790e7cda4901">
 </p>
 ​
 
